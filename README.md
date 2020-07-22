@@ -1,6 +1,6 @@
 # Building-with-Backgrounds-and-Gradients-MPS
 
-Building an HTML and css page that matches the appearance of this page [NYT Space Ripples Reveal Big Bang’s Smoking Gun](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+Building an HTML and css page that matches the appearance of this page [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 # Built With
 
