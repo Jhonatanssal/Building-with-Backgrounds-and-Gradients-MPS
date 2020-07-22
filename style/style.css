@@ -40,6 +40,11 @@ body {
   background: linear-gradient(#000, #444, #444, #444, #000);
 }
 
+.nav-bar > .btn-item > a {
+  text-decoration: none;
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: #08c;
@@ -66,11 +71,12 @@ a {
 }
 
 .main-section {
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 62% 100% no-repeat;
   background-color: transparent;
-  background-size: 1350px 1315px;
+  background-size: 100vw;
+  background-position: center bottom;
   width: 100%;
-  height: 550px;
+  /* height: 550px; */
   text-align: center;
   position: relative;
   padding-top: 200px;
@@ -98,6 +104,7 @@ a {
 
 .grid {
   max-width: 1350px;
+  width: 100%;
   height: 210px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -107,6 +114,7 @@ a {
 
 .grid > img {
   width: 100%;
+  border: 1px solid red;
 }
 
 .footer {
@@ -124,6 +132,7 @@ a {
 .footer-item {
   text-align: start;
   align-items: center;
+  width: 1300px;
   justify-content: center;
   padding-top: 15px;
 }
