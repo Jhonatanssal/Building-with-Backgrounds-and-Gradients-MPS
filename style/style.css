@@ -53,10 +53,6 @@ a {
   color: #08c;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .search {
   display: flex;
   align-items: center;
@@ -87,7 +83,7 @@ a:hover {
   height: 550px;
   text-align: center;
   position: relative;
-  padding: 200px auto;
+  padding: 200px auto 200px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,9 +149,13 @@ a:hover {
 }
 
 ul > li > a {
-  padding: auto 10px;
+  padding: auto 10px auto 10px;
   border-right: 1px solid gray;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .footer-item > ul > li > img {
