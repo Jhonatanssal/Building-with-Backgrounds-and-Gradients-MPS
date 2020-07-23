@@ -145,7 +145,8 @@ ul > li > a {
   text-decoration: none;
 }
 
-.main-section > .img3:hover, a:hover {
+.main-section > .img3:hover,
+ a:hover {
   text-decoration: underline;
 }
 
