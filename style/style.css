@@ -40,15 +40,11 @@ body {
   background: linear-gradient(#000, #444, #444, #444, #000);
 }
 
-.nav-bar > .btn-item > a {
-  text-decoration: none;
-  color: white;
-}
-
 a {
   text-decoration: none;
   color: #08c;
 }
+
 
 .search {
   display: flex;
@@ -76,6 +72,7 @@ a {
   background-size: 100vw;
   background-position: center bottom;
   width: 100%;
+  
   /* height: 550px; */
   text-align: center;
   position: relative;
@@ -157,6 +154,11 @@ ul > li > a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.nav-bar > .btn-item > a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-item > ul > li > img {
