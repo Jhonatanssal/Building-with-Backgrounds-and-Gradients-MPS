@@ -1,3 +1,5 @@
+
+
 body {
   flex-direction: column;
   align-items: center;
@@ -26,7 +28,6 @@ body {
   background: linear-gradient(to top, rgb(120, 120, 120) 17px, rgb(100, 100, 100) 17px);
   align-items: stretch;
   z-index: 1;
-  border: 1px solid red;
   justify-items: center;
 }
 
@@ -75,9 +76,10 @@ input {
 .main-section {
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 62% 100% no-repeat;
   background-color: transparent;
-  background-size: 100vw;
+  background-size: 1350px 1315px;
   background-position: center bottom;
   width: 100%;
+  margin-top: -3px;
   text-align: center;
   position: relative;
   padding-top: 200px;
@@ -100,15 +102,15 @@ input {
 }
 
 .grid {
-  width: 100%;
+  width: 1350px;
   height: 210px;
   display: grid;
-  grid-template-columns: 365px 4fr 377px 370px 4fr 370px;
+  grid-template-columns: repeat(4, 1fr);
   margin: 2px auto;
 }
 
-.grid > img {
-  width: 100vw;
+.grid > a > img {
+  width: 100%;
 }
 
 .footer {
@@ -143,8 +145,8 @@ input {
 }
 
 ul > li > a {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 3px;
+  padding-left: 3px;
   border-right: 1px solid gray;
   text-decoration: none;
 }
