@@ -18,7 +18,7 @@ body {
 .nav-bar {
   position: relative;
   flex: 1 1 11.11%;
-  top: 130px;
+  top: 150px;
   width: 990px;
   height: 40px;
   border-radius: 3px;
@@ -26,17 +26,22 @@ body {
   background: linear-gradient(to top, rgb(120, 120, 120) 17px, rgb(100, 100, 100) 17px);
   align-items: stretch;
   z-index: 1;
+  border: 1px solid red;
+  justify-items: center;
 }
 
 .btn-item {
+  position: relative;
   width: 11.12%;
   height: 35px;
-  margin: 0 -1px;
+  padding-top: 0.5em;
+  margin: auto -1px;
   background-color: transparent;
   border: none;
   border-right: 1px solid rgb(66, 66, 66);
   color: white;
   font-weight: 400;
+  text-align: center;
 }
 
 .btn-item:hover {
