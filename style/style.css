@@ -9,6 +9,7 @@ body {
   cursor: pointer;
   width: 100%;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -98,7 +99,7 @@ a {
   height: 210px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2px;
+  grid-gap: 0;
   margin: 2px auto;
 }
 
