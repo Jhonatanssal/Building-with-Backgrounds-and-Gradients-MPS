@@ -103,7 +103,7 @@ input {
 }
 
 .grid > img {
-  width: cover;
+  width: 100vw;
 }
 
 .footer {
