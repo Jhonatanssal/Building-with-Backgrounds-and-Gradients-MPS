@@ -16,7 +16,7 @@ Building an HTML and css page that matches the appearance of this page [Apple](h
 
 # Live Demo
 
-[Click here for Live Demo](https://raw.githack.com/jssarrazolaa/Building-with-Backgrounds-and-Gradients-MPS/workplace/index.html)
+[Click here for Live Demo](https://jssarrazolaa.github.io/Building-with-Backgrounds-and-Gradients-MPS/)
 
 # Getting Started
 
